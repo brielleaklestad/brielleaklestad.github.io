@@ -1,0 +1,98 @@
+html,
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+header img {
+    width: 100%;
+
+}
+
+nav {
+    background-color: paleturquoise;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: plum;
+    font-family: monospace;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav a:hover {
+    color: purple;
+    background-color: turquoise;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    overflow: auto;
+}
+
+section h1 {
+    color: paleturquoise;
+    font-size: 180%;
+    font-family: monospace;
+}
+
+section h2 {
+    color: plum;
+    font-size: 140%;
+    font-family: monospace;
+}
+
+footer {
+    background-color: plum;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.cupcake {
+    width: 30%;
+    float: right;
+}
+
+.button {
+    background-color: paleturquoise;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0 0;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 8px;
+}
+
+a.button:hover {
+    background-color: plum;
+}
