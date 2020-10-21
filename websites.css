@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header,
+nav,
+section,
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 30px;
+}
+
+nav {}
+
+section {}
+
+footer {}
