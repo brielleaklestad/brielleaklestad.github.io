@@ -1,0 +1,150 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    font-family: verdana, geneva, sans-serif;
+    color: white;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+    background-color: 0EC8C7;
+    margin: 0;
+}
+
+nav ul {
+    padding: 4px;
+}
+
+nav li {
+    display: inline;
+    padding: 20px 10px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #0EC8C7;
+
+}
+
+section {
+    overflow: auto;
+    background-color: white;
+    margin: px;
+    padding: 0;
+    width: 300;
+    height: 100%;
+    color: black;
+}
+
+section article h1,
+section article h2,
+section article h3 {
+    margin: 2px;
+    padding: 2px;
+}
+
+section aside {
+    text-align: center;
+    float: left;
+    width: 12%;
+    background-color: #EC3632;
+}
+
+section aside ul {
+    padding: 20px;
+    margin: 15px;
+    ;
+}
+
+section aside li {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+section aside li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0EC8C7;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer li a {
+    padding: 5px;
+    text-align: center;
+    display: inline;
+    color: white;
+}
+
+section article img {
+    float: right;
+    margin: 10px 4px;
+}
+
+.buy {
+    width: 320px;
+    float: right;
+    margin: 8px;
+}
+
+@media screen and (max-width: 1600px) {
+    #wrap {
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #wrap {
+        width: 100%;
+    }
+
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    section aside {
+        width: 100%;
+        float: none;
+    }
+
+    section article {
+        float: none;
+        width: 100%;
+    }
+
+    section article img {
+        width: 100%;
+        margin: 2px;
+    }
+}
