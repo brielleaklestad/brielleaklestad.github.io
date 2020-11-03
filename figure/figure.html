@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Template</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="box">
+                <h1> Welcome World</h1>
+                Here is my love of Harry Potter
+            </div>
+        </header>
+
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/harrypotter.jpg" data-thumb="images/harrypotter.jpg" alt="Harry Potter" />
+                    <a href="http://harrypotter.com"><img src="images/hogwarts.jpg" data-thumb="images/hogwarts.jpg" alt="Howgwarts" title="You're a wizard Harry!" /></a>
+                    <img src="images/characters.jpg" data-thumb="images/characters.jpg" alt="Characters" data-transition="slideInLeft" />
+                    <img src="images/voldemort.jpg" data-thumb="images/voldemort.jpg" alt="The End" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>Only</strong> one can live <em>HTML</em> in the end <a href="#">a link</a>.
+                </div>
+            </div>
+        </nav>
+
+        <section>
+
+            Section
+
+        </section>
+
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <!--end wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
