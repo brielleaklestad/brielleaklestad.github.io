@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact Us</title>
+    <link href="final.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180153981-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180153981-1');
+
+    </script>
+
+</head>
+
+<body id=contact>
+    <a id="contact">Contact Us</a>
+    <div id="wrap">
+        <header>
+            <img src="flathead.jpg">
+        </header>
+
+        <nav>
+            <ul>
+                <li> <a href="final.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="things.html">Things to Do</a></li>
+                <li> <a href="places.html">Places to Stay</a></li>
+                <li> <a href="resturants.html">Restaurants</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <fieldset>
+                <legend> Please fill out this form</legend>
+                <form method="post" action="../box.html">
+
+                    <p> <label for="fname"> First Name</label><br>
+                        <input type="text" id="fname" name="fname"></p>
+
+                    <p> <label for="lname"> Last Name</label><br>
+                        <input type="text" id="lname" name="lname"></p>
+
+                    <p> <label for="phone"> Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone"></p>
+
+                    <p> <label for="emai"> Email</label><br>
+                        <input type="email" id="email" name="email"></p>
+
+
+                    <p> Have you ever visited the Flathead area before?</p>
+
+                    <p> <input type="radio" id="yes" name="before" value="Yes">
+                        <label for="yes">Yes</label><br>
+
+                        <input type="radio" id="no" name="before" value="No">
+                        <label for="no">No</label><br>
+
+                        <input type="radio" id="maybe" name="before" value="maybe">
+                        <label for="maybe">I have only heard about it</label><br> </p>
+
+
+
+                    <p> How did you hear about FLathead Lake?</p>
+
+                    <p> <input type="checkbox" id="friend" name="howhear" value="Friend">
+                        <label for="friend"> Friend </label><br>
+
+                        <input type="checkbox" id="website" name="howhear" value="Other Website">
+                        <label for="website"> Other Website </label><br>
+
+                        <input type="checkbox" id="search" name="howhear" value="Search Engine">
+                        <label for="search"> Search Engine </label><br>
+
+                        <input type="checkbox" id="ad" name="howhear" value="Advertisment">
+                        <label for="ad"> Advertisment </label><br>
+
+                        <input type="checkbox" id="sm" name="howhear" value="Social Media">
+                        <label for="sm"> Social Media </label> </p>
+
+
+
+                    <p> What can we help you with?</p>
+                    <select>
+                        <option value="none"> Select an option</option>
+                        <option value="Plan"> Plan my visit</option>
+                        <option value="Question"> I would like to sign up for the brochure</option>
+                        <option value="Topic"> I need more information on a specific topic</option>
+                        <option value="Agent"> I would like to get into contact with a travel agent</option>
+                    </select>
+
+
+                    <p> Please leave any further comments or questions you may have! </p>
+
+                    <textarea name="comments" id="comments" placeholder="Place comment here">  </textarea>
+
+                    <p> <input type="submit" value="Submit Form" class="button"> </p>
+
+                </form>
+            </fieldset>
+        </section>
+
+        <footer>
+            Flathead Lake 2020. All Rights Reserved.
+        </footer>
+    </div>
+    <!--end wrap-->
+</body>
+
+</html>

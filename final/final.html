@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Flathead Lake</title>
+    <link href="final.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180153981-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180153981-1');
+
+    </script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="slider-wrapper theme-bar">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/sunset.jpg" data-thumb="images/sunset.jpg" alt="Flathead Lake" />
+                    <img src="images/blue.jpg" data-thumb="images/blue.jpg" alt="Flathead Lake" />
+                    <img src="images/bigfork.jpg" data-thumb="images/bigfork.jpg" alt="Flathead Lake" />
+                    <img src="images/flathead.jpg" data-thumb="images/flathead.jpg" alt="Flathead Lake" />
+                </div>
+
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li> <a href="final.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="things.html">Things to Do</a></li>
+                <li> <a href="places.html">Places to Stay</a></li>
+                <li> <a href="resturants.html">Restaurants</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1>Flathead Lake</h1>
+            <p> <img src="map.jpg" class="map"> Flathead Lake is the largest natural freshwater lake west of the Mississippi in the lower 48 states, with over 200 square miles of water and 185 miles of shoreline. The southern half of Flathead Lake is within the boundary of the Confederated Salish and Kootenai Tribes Flathead Reservation. Recreationists must purchase a tribal recreation permit. Montana Fish Wildlife and Parks maintains thirteen public access sites around the lake. These sites include: Sportsmans Bridge, Somers, Big Fork, and Juniper Beach fishing access sites; Wayfarers, Woods Bay, Yellow Bay, Finely Point, Walstad Memorial, Big Arm, and Elmo state recreation areas, which have toilets, boat launch, camping, swimming and picnic facilities; and West Shore State Park, located twenty miles south of Kalispell on Highway 93. Also located along the west shore near the Big Arm is Wildhorse Island, a 2,165-acre state park. The park is accessible only by boat and is a public day use and picnic area only, no overnight camping. Recreation on and around the lake includes: sailing, power boating, waterskiing, swimming, fishing, picnicking, and camping. In the summer, roadside stands along the east shore offer a variety of locally grown cherries, apples, plums, and other fruits. There are numerous motels and rental cabins in addition to public campgrounds scattered all around the shoreline. The major population centers around the lake are Kalispell, Bigfork, and Polson, all of which offer a complete variety of groceries, supplies, and information.</p>
+
+            <div style="clear:both;"></div>
+            <p><img src="lake.JPG" class="lake"></p>
+        </section>
+
+        <footer>
+            Flathead Lake 2020. All Rights Reserved.
+        </footer>
+    </div>
+    <!--end wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>

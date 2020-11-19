@@ -1,0 +1,132 @@
+html,
+body {
+    margin: 0;
+    padding: 20 px;
+    background-color: darkcyan;
+    color: darkcyan;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header {
+    padding: 5px;
+    background-color: black;
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+    padding: 5px;
+    align-content: center;
+}
+
+nav {
+    background-color: darkgray;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+section {
+    color: black;
+    font-size: 15px;
+    overflow: auto;
+    background-color: lightblue;
+    font-family: 'Comfortaa', cursive;
+    padding: 15px;
+    line-height: 30px;
+}
+
+section img {
+    width: 40%;
+    padding: 10px;
+}
+
+.lake {
+    text-align: center;
+    width: 96%;
+}
+
+footer {
+    color: lightgray;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+aside {
+    width: 23%;
+    /* background-color: darkcyan; */
+    float: left;
+}
+
+aside li {
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px;
+}
+
+aside ul {
+    padding: 1px;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+aside a:hover {
+    color: black;
+    background-color: white;
+}
+
+article {
+    float: right;
+    width: 63%;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    float: left;
+    margin: 0 20px 20px 0;
+}
